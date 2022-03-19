@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pokedex</title>
+	<!-- Agregamos icono a la pestaña -->
+	<link rel="icon" href="pokeball.png">
+	<!-- Enlazamos nuestro css con html-->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+
+	<div id="linea"></div>
+	<div class="edit1">
+		<div id="fondoImg"></div>
+		<div id="fondoImg2"></div>
+		<div id="fondoImg3"></div>
+		<div id="bolita1"></div>
+		<div id="bolita2"></div>
+		<div id="bolita3"></div>	
+		<div id="bolita4"></div>
+		<div id="rayita1"></div>
+		<div id="rayita2"></div>
+	</div>
+	<div id="fondo1"></div>
+	<div id="fondo2"></div>
+	<div id="cir1"></div>
+	<div id="cir2"></div>
+	<div id="cil"></div>
+
+
+	
+	<div id="datos1">
+		<h2 id="Nombre"> Nombre</h2>
+	</div>
+
+	<div id="datos2">
+		<h2 id="Tipo" style="position: absolute; top: 0%; right: 40%;"> Tipo</h2>
+	</div>
+	
+	<div id="datos3">
+		<h2  style="position: absolute; top: 0%; right: %;"> Movimientos</h2>
+		<h2 id="Mov" style="position: absolute; top: 20%; right: %;"> </h2>
+
+		<h2 id="Mov2" style="position: absolute; top: 30%; right: %;"> </h2>
+
+		<h2 id="Mov3" style="position: absolute; top: 40%; right: %;"></h2>
+
+		<h2 id="Mov4" style="position: absolute; top: 50%; right: %;"></h2>
+
+		<h2 id="Mov5" style="position: absolute; top: 60%; right: %;"></h2>
+
+		<h2 id="Mov6" style="position: absolute; top: 70%; right: %;"></h2>
+
+		<h2 id="Mov7" style="position: absolute; top: 80%; right: %;"></h2>
+
+		<h2 id="Mov8" style="position: absolute; top: 90%; right: %;"></h2>
+	</div>
+
+	<div id="Estadisticas">
+		<h2 style="position: absolute; top: 0%; right: 30%;">Estadisticas</h2>
+		<h3 style="position: absolute; top: 16%; right: 70%;">Hp</h3>
+		<h3 style="position: absolute; top: 26%; right: 70%;">Attack</h3>
+		<h3 style="position: absolute; top: 36%; right: 70%;">Defense</h3>
+		<h3 style="position: absolute; top: 45%; right: 62%;">Special Attack</h3>
+		<h3 style="position: absolute; top: 56%; right: 62%;">Special defense</h3>
+		<h3 style="position: absolute; top: 67%; right: 65%;">Speed</h3>
+		<div id="hp">
+			<p id="hp1">&nbsp;&nbsp;00</p>
+		</div>
+		<div id="attack">
+			<p id="attack1">&nbsp;&nbsp;00</p>
+		</div>
+		<div id="defense">
+			<p id="defense1">&nbsp;&nbsp;00</p>
+		</div>
+		<div id="special-attack">
+			<p id="special-a1">&nbsp;&nbsp;00</p>
+		</div>
+		<div id="special-defense">
+			<p id="special-d1">&nbsp;&nbsp;00</p>
+		</div>
+		<div id="speed">
+			<p id="speed1" style="font-size: 20px; font-weight: bold" >&nbsp;&nbsp;00</p>
+		</div>
+	</div>
+
+	<h1 >Pokedex LaunchX</h1>
+    <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Pokemon" id="pokeName" name="pokeName">
+    <img src="img.png" alt="Pokemon" id="pokeImg" width="300px">
+    <button onclick="fetchPokemon()">Buscar</button>
+    <img src="shadow.png" id="shadow">
+
+    <script src="pokedex.js"></script>
+</body>
+</html>

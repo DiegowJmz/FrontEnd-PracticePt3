@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.edit1{
+	width: 665px;
+	height: 700px;
+	position: relative;
+	top: 0%;
+	left: 0%;
+}
+
+#fondoImg{
+	position: absolute;
+	background-color: #dd082f;
+	width: 550px;
+	height: 651px;
+	position: absolute;
+	top: 3%;
+	left: 10%;
+	border-radius: 20px 0px 0px 20px;
+	border: 2px solid;
+	border-right: none;
+}
+
+#fondoImg2{
+	background-color: #e8e2cc;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 25%;
+	left: 21.5%;
+	border-radius: 15px;
+	border: 2px solid;
+}
+
+#fondoImg3{
+	background-color: lightgray;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 28.5%;
+	left: 25.5%;
+	border-radius: 15px;
+	border: 2px solid;
+}
+
+#bolita1{
+	background-color: #519afb;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 5%;
+	left: 17%;
+	border: 2px 	solid;
+}
+
+#bolita2{
+	background-color: #f9e734;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 8%;
+	left: 30%;
+	border: 2px 	solid;
+}
+
+#bolita3{
+	background-color: #5bf934;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 8%;
+	left: 37%;
+	border: 2px 	solid;
+}
+
+#bolita4{
+	background-color: #c634f9;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 8%;
+	left: 44%;
+	border: 2px 	solid;
+}
+
+#rayita1{
+	background-color: #34e4f9;
+	border-radius: 20px;
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	top: 18%;
+	left: 52%;
+	border: 2px 	solid;
+}
+
+#rayita2{
+	background-color: #f934db;
+	border-radius: 20px;
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	top: 18%;
+	left: 68%;
+	border: 2px 	solid;
+}
+
+#linea{
+	width: 100%;
+	background-color: #fff1c3;
+	height: 100%;
+	position: absolute;
+}
+
+#datos1{
+	position: absolute;
+	left: 19%;
+	top: 30%;
+}
+
+#Nombre{
+	width: 200px;
+	height: 30px;
+}
+
+#datos2{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	right: 40%;
+	top: 25%;
+}
+
+#datos3{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	right: 37%;
+	top: 38%;
+}
+
+#Estadisticas{
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	right: 15%;
+	top: 25%;
+}
+
+h3 {
+	font-size: 13px;
+}
+
+#hp{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 30%;
+	top: 15%;
+	border: 2px solid #324e65;
+}
+
+#attack{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 30%;
+	top: 25%;
+	border: 2px solid #324e65;
+}
+
+#defense{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 30%;
+	top: 35%;
+	border: 2px solid #324e65;
+}
+
+#special-attack{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 30%;
+	top: 45%;
+	border: 2px solid #324e65;
+}
+
+#special-defense{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 30%;
+	top: 55%;
+	border: 2px solid #324e65;
+}
+
+#speed{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 30%;
+	top: 66%;
+	border: 2px solid #324e65;
+}
+
+#pokeImg{
+	position: absolute;
+	top: 33%;
+	left: 13%;
+}
+
+#Estadisticas p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input{
+	width: 270px;
+	height: 25px;
+	background: #e8e2cc;
+	border-radius: 15px;
+	position: absolute;
+	top: 85%;
+	left:9%;
+}
+
+button{
+	position: absolute;
+	top: 85.2%;
+	left: 28%;
+	width: 100px;
+	height: 25px;
+	background: #e8e2cc;
+	border: none;
+	border-radius: 15px;
+}
+
+h1{
+	position: absolute;
+	top: 4%;
+	left: 50%;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+}
+
+#shadow{
+	width: 200px;
+	position: absolute;
+	right: 3%;
+	top: 65%;
+	opacity: 0.5;
+	transform: rotate(145deg);
+}
+
+#fondo1{
+	background-color: #dd082f;
+	width: 600px;
+	height: 570px;
+	position: absolute;
+	right: 17%;
+	top: 15%;
+	border: 2px solid;
+	border-left: none;
+	border-radius: 0px 20px 20px 0px;
+}
+
+#fondo2{
+	background-color: #e8e2cc;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	right: 20%;
+	top: 22%;
+	border: 2px solid;
+	border-radius: 20px;
+}
+
+#cir1{
+	background-color: #dd082f;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0%;
+	left: 40.1%;
+	border: 2px solid;
+}
+
+#cir2{
+	background-color: #dd082f;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: absolute;
+	top: 91%;
+	left: 40.1%;
+	border: 2px solid;
+}
+
+#cil{
+	background-color: #dd082f;
+	width: 60px;
+	height: 650px;
+	position: absolute;
+	top: 3%;
+	left: 40.1%;
+	border: 2px solid;
+}
